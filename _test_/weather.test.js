@@ -27,7 +27,7 @@ beforeAll(async () => {
           let day = (new Date(date)).getDay()
           if (day==4){ // 4 here signifies Thursday
             tempInCelsius= element.main.temp_min-273.15
-            expect(tempInCelsius).toBeGreaterThan(1)
+            expect(tempInCelsius).toBeGreaterThan(10)
             }
           })
         });
